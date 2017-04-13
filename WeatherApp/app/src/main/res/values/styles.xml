@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+
+        <!-- If you are using revision 22.1 please use just windowNoTitle. Without android: -->
+        <item name="windowNoTitle">true</item>
+        <!-- We will be using the toolbar so no need to show ActionBar -->
+        <item name="windowActionBar">false</item>
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MaterialToolbar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/text_ondark_primary</item>
+    </style>
+
+    <style name="ListDivider">
+        <item name="android:background">@color/divider</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+    <style name="MaterialButton" parent="Widget.AppCompat.Button.Colored">
+    </style>
+
+</resources>
